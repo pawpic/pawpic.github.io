@@ -6,6 +6,7 @@ categories: [Hacksmarter]
 tags: [active-directory, bloodhound, backup-operator, SQL_Injection, impacket, evil-winrm]
 media_subpath: /assets/gearvault-img
 ---
+Hello to my GearVault writeup from Hacksmarter. This one starts with SQL injection on a shop subdomain and ends with a full domain takeover: from db_owner and xp_cmdshell RCE, through GodPotato to SYSTEM and BloodHound abuse of IT-HELPDESK, down to an NTDS dump with the DC01 machine account hash.
 
 ## Subdomain enumeration
 
